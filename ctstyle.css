@@ -1,0 +1,368 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.navbar {
+  padding: 20px 60px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-img img {
+  height: 25px;
+  padding: 10px;
+  position: absolute;
+  top: 2%;
+  left: 3%;
+}
+.logo-text {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: inherit;
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: left;
+  float: none;
+  position: absolute;
+  left: 6%;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  gap: 50px;
+  float: none;
+  position: absolute;
+  left: 30%;
+}
+.navbar ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: large;
+}
+
+.navbar ul li a:hover {
+  color: rgb(43, 65, 188);
+  font-size: large;
+}
+.login {
+  position: absolute;
+  right: 5%;
+  text-align: center;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 40px;
+  background-color: #02122d;
+  color: white;
+  border: 2px solid #007aff;
+  border-radius: 20px;
+  margin: 40px auto;
+  width: 87%;
+  height: 60px;
+  background-image: linear-gradient(
+      to right,
+      rgba(205, 179, 179, 0.09) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.09) 1px, transparent 1px);
+  background-size: 25px 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-text {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #2f80ed;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1a64d6;
+}
+.about-tle {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.why-choose-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #020c35;
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 40px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-section {
+  max-width: 60%;
+}
+
+.text-section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.text-section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.image-section img {
+  width: 200px;
+  height: auto;
+}
+
+.text-section,
+.image-section {
+  max-width: 100%;
+}
+
+.image-section img {
+  margin-top: 20px;
+  width: 150px;
+}
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #020c35;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.stat-box h2 {
+  font-size: 60px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.stat-box p {
+  font-size: 35px;
+  color: #00e6d0;
+  margin: 0;
+}
+.who-is-founder {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.founder-info {
+  background-color: #02133b;
+  border-radius: 30px;
+  padding: 40px 20px;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.founder-name {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.founder-text {
+  background-color: white;
+  color: #020c35;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.founder-text-left {
+  flex: 1 1 60%;
+  padding-right: 30px;
+}
+
+.founder-text-left ul {
+  padding-left: 20px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.founder-text-left li {
+  margin-bottom: 10px;
+}
+
+.quote {
+  font-size: 1.1rem;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.founder-img {
+  flex: 1 1 35%;
+  display: flex;
+  justify-content: center;
+}
+
+.founder-img img {
+  max-width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.final-jinish {
+  display: flex;
+  background-color: #020c35;
+  color: rgb(186, 191, 214);
+  justify-content: space-between;
+  padding: 20px 60px;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  font-weight: 540;
+}
+.final-jinish h4 {
+  font-size: large;
+  color: white;
+}
+.all-courses {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.about-course {
+  width: 260px;
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+.about-course:hover {
+  transform: translateY(-5px);
+}
+.course-header {
+  background: linear-gradient(to right, #0a0a23, #1e1e3f);
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-header h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.course-header p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.course-header img {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.course-body {
+  padding: 20px;
+}
+
+.student {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.student i {
+  margin-right: 5px;
+}
+
+.description {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.price del {
+  color: #888;
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+.discount {
+  background-color: #d4f5e9;
+  color: #2e8b57;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons button {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.buy-btn {
+  background-color: #0057e7;
+  color: white;
+  padding: 10px 20px;
+  border: solid;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.explore-btn {
+  background-color: white;
+  color: #0052cc;
+  border: 2px solid #0052cc;
+}
+
+footer img {
+  width: 18px;
+}
+footer {
+  text-align: center;
+  background-color: #020c35;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
